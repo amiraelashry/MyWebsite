@@ -1,0 +1,60 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#cfc3b9;
+    
+}
+header{
+    color: #f6f5f4;
+    text-align: center;
+    padding: 1rem 0;
+
+}
+header h1{
+    background-color:#523e2d;
+    padding:10px;
+}
+header img {
+    width:300px;
+    height:300px;
+    border-radius: 50px;
+    cursor: pointer;  
+}
+section{
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius:10px;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+}
+section p {
+    font-size:20px;
+    color: #9b8f86;
+}
+section li { font-size:20px;
+    color: #9b8f86;
+}
+h2 {
+color:#684a20;}
+ul {
+    list-style-type: square;
+}
+footer{
+    text-align: left;
+    padding:1rem;
+    color: #fff;
+    font-size:20px;
+}
+section img{
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border-radius:70px;
+    text-align: center;
+    display:inline-block;
+    cursor:pointer;
+    transition:background-color 0.3;
+}
+section img:hover {
+    background-color: #523e2d;
+    padding:5px;
+}
